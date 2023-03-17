@@ -370,11 +370,15 @@ footer {
     }
 
     .carousel-caption a {
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .carousel-caption h1 {
         font-size: 29px;
+    }
+
+    .d-flex.justify-content-center.mt-5.gap-5 {
+        margin-top: 80px !important;
     }
 
     button span:nth-child(1).bg-warning i {
@@ -382,14 +386,16 @@ footer {
     }
 
     .height-35 {
-        height: 35vh !important;
+        height: 25vh !important;
     }
 
+    .meet-team.py-5 span,
     p,
     span.text-light2,
     .form-floating>label,
-    input[type=submit] {
-        font-size: 12px;
+    input[type=submit],
+    .fs-12 {
+        font-size: 12px !important;
     }
 
     input[type=submit] {
@@ -411,19 +417,32 @@ footer {
         height: 32px;
     }
 
+    .text-center.display-5.fw-600.text-capitalize.text-dark.mt-4.pb-3 {
+        font-size: calc(1.425rem + 2.1vw) !important;
+    }
+
     .fs-4 {
         font-size: 14px !important;
     }
 
     .h3 {
-        font-size: calc(1rem + .6vw);
+        font-size: calc(1rem + .6vw) !important;
+    }
+
+    .h5 {
+        font-size: calc(.9rem) !important;
+    }
+
+    .input-group.mb-1 input {
+        font-size: 9px !important;
+        padding: 5px 5px;
     }
 }
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media screen and (max-width: 575.98px) {
     .font-10 {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .carousel-item img {

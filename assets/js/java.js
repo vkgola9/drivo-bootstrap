@@ -11,6 +11,7 @@ window.addEventListener('scroll', function () {
         document.getElementById('toggle1').classList.remove('search1');
         document.getElementById('toggle').classList.remove('search');
     }
+    s
 });
 
 function myFunction() {
