@@ -444,6 +444,9 @@ footer {
         font-size: 30px !important;
     }
 
+    .display-3.fw-600.text-capitalize.text-white {
+        font-size: calc(1.525rem + 3.3vw) !important;
+    }
 }
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
